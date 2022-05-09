@@ -1,0 +1,125 @@
+html {
+	font-size: 16px;
+	font-weight: normal;
+}
+
+body,
+html {
+	height: 100%;
+}
+
+body {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+  font-family: "open sans", Helvetica, sans-serif;
+  background-color: #F2F2F2;
+	color: #fff;
+	margin: 0;
+}
+
+button {
+	border: 0;
+	cursor: pointer;
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+	margin: 0;
+}
+
+p { 
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	color: inherit;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+/* Основные стили для кнопки */
+.button {
+  width: 168px;
+  height: 54px;
+	color: #fff;
+  background-color: #F5170E;
+  border-radius: 35px;
+
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 18px 40px;
+
+	cursor: pointer;
+} 
+
+.button--shadow:hover {
+  background-color: #DA0100;
+  box-shadow: 0px 2px 4px 0px #DA01004D;
+}
+
+.button--light {
+  background-color: #fff;
+  border: 1px solid #F5170E;
+  color: #F5170E;
+}
+
+.button--light:hover {
+  background-color: #F5170E;
+  color: #fff;
+}
+/* Основные стили для кнопки. конец */
+
+* {
+	box-sizing: border-box;
+}
+
+img {
+	display: block;
+  max-width: 100%;
+}
+
+/* Основные стили для пагинации */
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pagination__text {
+  margin-right: 26px;
+}
+
+.pagination__list {
+  display: flex;
+  align-items: center;
+}
+
+.pagination__item {
+  cursor: pointer;
+}
+
+.pagination__item-form {
+  font-weight: 700;
+}
+
+.pagination__item-form {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  padding: 6px 11px;
+}
+
+.pagination__item--active .pagination__item-form:hover {
+  background-color: #fff;
+  
+  color: #F5170E;
+}
+/* Основные стили для пагинации */
