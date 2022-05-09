@@ -1,0 +1,13 @@
+@import url(./../style/blocks/base.css);
+@import url(./../style/blocks/header.css);
+@import url(./../style/blocks/hello.css);
+@import url(./../style/blocks/offers.css);
+@import url(./../style/blocks/news.css);
+@import url(./../style/blocks/about.css);
+@import url(./../style/blocks/footer.css);
+
+/* Страница "Услуги" */
+@import url(./../style/blocks/sv-header.css);
+@import url(./../style/blocks/services.css);
+@import url(./../style/blocks/partners.css);
+@import url(./../style/blocks/sv-footer.css);

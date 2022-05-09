@@ -1,0 +1,111 @@
+.offers {
+  margin-top: 268px;
+}
+
+.offers .title {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 56px;
+}
+
+.title--fire::after {
+  content: "";
+  background-image: url(./../../img/flame.png);
+  width: 21px;
+  height: 28px;
+  margin-left: 16px;
+  
+  display: inline-flex;
+  align-items: stretch;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.offers__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.offers__item {
+  min-height: 448px;
+  width: calc(100% / 3 - 18px);;
+  border-radius: 5px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #fff;
+  color: #000;
+
+}
+
+.offers__item:last-child {
+  margin-right: 0px;
+}
+
+.offers__img {
+  min-height: 144px;
+}
+
+.offers__content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 34px 22px 26px;
+}
+
+.offers__title {
+  font-size: 24px;
+  line-height: 28.13px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.offers__features {
+  margin-bottom: 22px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.offers__feature {
+  display: flex;
+  align-items: center;
+  margin-right: 22px;
+  color: #666;
+}
+
+.offers__feature:last-child {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.offers__feature-img {
+  margin-left: 6px;
+  margin-right: 10px;
+  height: 26px;
+  display: block;
+}
+
+.offers__features-text {
+  line-height: 21px;
+  width: 90px;
+  height: 22px;
+  display: inline-flex;
+  align-items: baseline;
+}
+
+.offers__text {
+  font-size: 14px;
+  line-height: 21px;
+  color: #303030;
+  margin-bottom: 24px;
+}
+
+.button--small--size {
+  width: 136px;
+  padding: 16px 30px;
+}
