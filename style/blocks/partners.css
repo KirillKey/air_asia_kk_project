@@ -1,7 +1,7 @@
 .inner-section {
   background-color: #F4F5F5;
   color: #000;
-  padding-top: 90px;
+  padding: 90px 0px 70px;
 }
 
 .inner-section--bg--grey {
@@ -17,23 +17,21 @@
   font-size: 48px;
   font-weight: 700;
   line-height: 56.25px;
-  margin-bottom: 90px;
+  margin-bottom: 58px;
 }
 
 .partners {
   display: flex;
   flex-wrap: wrap;
-  align-items: flex-start;
 }
 
 .partners__item {
   width: 240px;
-  height: 60px;
+  height: 130px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
 
-  margin-bottom: 88px;
   margin-left: 60px;
 }
 
