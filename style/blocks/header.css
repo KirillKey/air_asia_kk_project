@@ -1,0 +1,154 @@
+/* фон */
+.wrapper {
+  background-color: #001821;
+}
+
+.wrapper__main-back {
+	background:
+	url("./../../img/asia_back.png") center top no-repeat,
+	url("./../../img/asia_back2.png") center bottom 165px no-repeat;
+}
+
+.header {
+  height: 80px;
+  padding-top: 30px;
+}
+
+.container {
+	height: 100%;
+	width: 100%;
+	max-width: 1142px;
+	margin: 0 auto;
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__col {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__col--align--right {
+  justify-content: flex-end;
+}
+
+.logo {
+  display: block;
+}
+
+.logo__pic {
+  width: 85px;
+  height: 36px;
+}
+
+.menu {
+  margin-left: 80px;
+  width: 264px;
+  height: 19px;
+}
+
+.menu__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu__item {
+  font-size: 14px;
+  line-height: 16.41px;
+}
+
+.menu__link {
+  font-size: 14px;
+  line-height: 16.41px;
+  transition: color 0.3s;
+}
+
+.menu__item:last-child {
+  margin-right: 0px;
+}
+
+.menu__item .menu__link:hover {
+  color: #DA0100;
+  transition: color 0.3s;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.contacts__phone {
+ font-size: 26px;
+ line-height: 30.47px;
+ font-style: normal;
+}
+
+/* Выпадающее меню */
+
+.dropdown {
+  cursor: pointer;
+  position: relative;
+}
+
+.dropdown__workhours {
+  color: #98A4A8;
+  font-size: 13px;
+  line-height: 20px;
+  text-decoration: underline;
+}
+
+.dropdown:hover .dropdown__workhours{
+  color: #fff;
+  transition: color 0.3s;
+}
+
+.dropdown__menu {
+  margin-top: 4px;
+  background-color: #EDEDED;
+  color: #1E1F20;
+  font-size: 13px;
+  line-height: 21px;
+  font-weight: 600;
+  border-radius: 2px;
+  padding: 14px 20px 14px;
+  width: 160px;
+  
+  position: absolute;
+  top: 100%;
+  right: 9999px;
+  opacity: 0;
+  transition: opacity .4s;
+}
+
+.dropdown:hover .dropdown__menu {
+  right: 0;
+  opacity: 0.8;
+}
+
+.dropdown__menu::before {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 20px;
+  left: 0;
+  right: 0;
+  top: -10px;
+}
+
+.dropdown__menu::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -8px;
+  right: 35px;
+
+  border: 16px solid transparent;
+  border-color: transparent transparent #EDEDED;
+  border-top-width: 0px;
+}

@@ -1,0 +1,82 @@
+.wrapper__welcome--back {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(./../../img/img-welcome-page/bg.png) center top / cover no-repeat;
+}
+
+.wrapper__welcome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.welcome__logo--back {
+  background: url(./../../img/img-welcome-page/shades.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.welcome__logo {
+  width: 592px;
+  height: 248px;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* margin-bottom: 6px; */
+}
+
+.logo__pic--welcome {
+  width: 279px;
+  height: 119px;
+}
+
+.welcome__text {
+  font-size: 18px;
+  line-height: 21.09px;
+}
+
+.button--welcome {
+  padding: 18px 58px;
+}
+
+
+/* Анимация */
+
+.welcome {
+  animation: zoom 0.8s cubic-bezier(.28,.29,.23,.98);
+  opacity: 0;
+  animation-fill-mode: forwards;
+}
+
+@keyframes zoom {
+  0% {
+    transform: scale(0.8);
+  }
+  25% {
+    transform: scale(1.15);
+  }
+  40% {
+    transform: scale(0.9);
+  }
+  60% {
+    transform: scale(1.1);
+  }
+  80% {
+    transform: scale(0.95);
+  }
+  100% {
+    opacity: 1;
+    scale: 1;
+  }
+}

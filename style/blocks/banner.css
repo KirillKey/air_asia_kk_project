@@ -1,0 +1,29 @@
+.banner {
+background:       url(./../../img/img-feedback-page/couple.png) bottom left 78% no-repeat,
+/* Главный фон */ url(./../../img/img-feedback-page/Rectangle.png) center center no-repeat;
+
+  min-height: 364px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+}
+
+.banner__content {
+  max-width: 50%;
+  position: relative;
+}
+
+.banner__title {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56.25px;
+}
+
+/* .img__decor {
+  display: block;
+  max-width: 50%; 
+  margin-left: 50px;
+} */
+
+

@@ -1,0 +1,92 @@
+.inner-section--feedbacks .inner-section__title {
+  margin-bottom: 64px;
+}
+
+.inner-section--feedbacks {
+  padding: 66px 0px 94px;
+}
+
+.form__row {
+  display: flex;
+  margin-bottom: 25px;
+}
+
+.form__input {
+  flex: 1;
+  background-color: #fff;
+  font-size: 18px;
+  line-height: 21.09px;
+  border-radius: 5px;
+  border: none;
+  padding: 20px 30px;
+  margin-right: 28px;
+}
+
+.form__input:last-child {
+  margin-right: 0px;
+}
+
+.form__input::placeholder {
+  color: #666;
+}
+
+.form__input--textarea {
+  height: 236px;
+  resize: none;
+}
+
+.form__input:focus {
+  outline: none;
+  border: 1px solid #F5170E;
+}
+
+/* Формы контроля */
+
+.form__controls {
+  display: flex;
+  align-items: flex-start; 
+  margin-bottom: 24px;
+}
+
+.controls {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.form__controls-title {
+  font-size: 18px;
+  line-height: 21.09px;
+  width: 38%;
+  padding-top: 12px;
+}
+
+.controls__item {
+  margin-right: 7px;
+  margin-bottom: 10px;
+}
+
+.controls__elem {
+  cursor: pointer;
+}
+
+.controls__checkbox:checked ~.controls__tag{
+  background-color: #B9EAE4;
+}
+
+.controls__checkbox {
+  display: none;
+}
+
+.form__buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.form__button {
+  margin-right: 17px;
+}
+
+.form__button:last-child {
+  margin-right: 0px;
+}
