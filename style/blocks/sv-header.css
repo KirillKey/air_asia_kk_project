@@ -1,4 +1,4 @@
-.top-line__img {
+.top-page--img {
   background: url("./../../img/services-page/headline_1.png");
   width: 100%;
   height: 100%;
@@ -7,14 +7,14 @@
   background-size: cover;
 }
 
-.services-top-line {
+.top-page {
   min-height: 415px;
 
   display: flex;
   flex-direction: column;
 }
 
-.services-top-line__container {
+.top-page__container {
   display: flex;
   flex: 1;
   flex-direction: column;
@@ -38,7 +38,7 @@
 }
 
 /* Приветственный текст и хлебные крошки */
-.services-top-line__title {
+.top-page__title {
   font-size: 72px;
   font-weight: 700;
   line-height: 84.38px;
